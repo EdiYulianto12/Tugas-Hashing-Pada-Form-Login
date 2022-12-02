@@ -39,8 +39,7 @@
 		
 	</div>
 
-	</body>
-</html>
+	
 <?php
 if (isset($_POST['blogin'])) {
 	$kodelogin=filter_var($_POST['kodelogin'],FILTER_SANITIZE_STRING);
@@ -81,4 +80,6 @@ if (isset($_POST['blogin'])) {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
         </footer>
+</body>
+</html>
    
